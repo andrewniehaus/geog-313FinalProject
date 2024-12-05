@@ -1,0 +1,15 @@
+name: geospatial-clustering
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  # You can change the Python version as needed
+  - planetary-computer
+  - pystac-client
+  - rioxarray
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - xarray  # This is for rioxarray dependencies
