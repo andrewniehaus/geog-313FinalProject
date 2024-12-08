@@ -6,8 +6,16 @@ dependencies:
   - python=3.9  # You can change the Python version as needed
   - planetary-computer
   - pystac-client
+  - xarray
   - rioxarray
   - numpy
+  - dask
+  - dask-distributed
+  - pyproj
+  - rasterio
+  - shapely
+  - requests
+  - tqdm
   - matplotlib
   - scikit-learn
   - pip
